@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Para el splash screen se debe crear por capas -->
+    <!-- Primer capa (fondo) = 1 item , cada item es una capa -->
+    <item android:drawable="@color/bgSplash" />
+    <!-- Item donde crearemos un bitmap para la imagen -->
+    <item>
+        <bitmap android:src="@drawable/logosplash" android:gravity="center" />
+    </item>
+</layer-list>

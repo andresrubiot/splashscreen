@@ -8,4 +8,10 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <!-- Creacion del style para el splashscreen -->
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- aqui se toma el archivo .xml, el cual debe tener nombre diferente al de la imagen para no confundir o generar error -->
+        <item name="android:windowBackground">@drawable/logo</item>
+    </style>
+
 </resources>
